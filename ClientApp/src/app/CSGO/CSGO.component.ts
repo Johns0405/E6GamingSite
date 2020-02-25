@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-counter-component',
-  templateUrl: './counter.component.html'
+  selector: 'CSGO',
+  templateUrl: './CSGO.html',
+  styleUrls: ['./CSGO.css']
 })
 export class CounterComponent {
   public currentCount = 0;
