@@ -1,48 +1,17 @@
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+.container {
+    max-width: 960px;
 }
 
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.bg-image {
+    /* background-image: url("/assets/images/e6-logo.png"); */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-
-img.paypal {
-  max-width: 30%;
-  height: auto;
-}
-
-div {
-  color: #00FF00;
-  position: fixed;
-  top: 55px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-body {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
-  background-image: url("/assets/images/e6logo.jpg");
-  top: 55px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  color: #00FF00;
+.blue-text {
+    color: rgb(0, 134, 177);
 }
