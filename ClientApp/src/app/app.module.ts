@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './CSGO/CSGO.component';
-import { MinecraftComponent } from './minecraft/Minecraft.component';
+import { TwitchComponent } from './twitch/Twitch.component';
 import { DonateComponent } from './donate/donate.component'
 
 @NgModule({
@@ -15,7 +15,7 @@ import { DonateComponent } from './donate/donate.component'
     AppComponent,
     HomeComponent,
     CounterComponent,
-    MinecraftComponent,
+    TwitchComponent,
     DonateComponent
   ],
   imports: [
@@ -25,7 +25,7 @@ import { DonateComponent } from './donate/donate.component'
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'csgo', component: CounterComponent },
-      { path: 'minecraft', component: MinecraftComponent },
+      { path: 'twitch', component: TwitchComponent },
       { path: 'donate', component: DonateComponent }
     ])
   ],
