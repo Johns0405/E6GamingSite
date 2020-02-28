@@ -2,7 +2,6 @@ import { Component, Inject } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 
-@Injectable()
 
 declare const Twitch: any;
 
