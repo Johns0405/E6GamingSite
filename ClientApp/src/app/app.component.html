@@ -1,11 +1,13 @@
 <div class="d-flex flex-column flex-md-row align-items-center px-md-4 border-bottom box-shadow blackground">
+  <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/']">
     <img class="img-responsive logo-image" src="assets/images/e6-logo.png" />
+  </a>
     <h5 class="my-0 mr-md-auto font-weight-normal">Element 6 Gaming</h5>
     <nav class="my-2 my-md-0 mr-md-3 blackground">
-        <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/']">Home</a>
-        <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/csgo']">CSGO</a>
-        <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/twitch']">Twitch</a>
-        <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/donate']">Donate</a>
+      <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/']">Home</a>
+      <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/csgo']">CSGO</a>
+      <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/twitch']">Twitch</a>
+      <a class="p-2 text-light" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/donate']">Donate</a>
     </nav>
 </div>
 <router-outlet></router-outlet>
